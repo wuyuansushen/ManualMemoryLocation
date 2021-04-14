@@ -19,8 +19,8 @@ namespace ManualMemoryLocation
         static void Main(string[] args)
         {
             var i = new unionLike();
-            i.lg = 0x12345678;
-            Console.WriteLine($"Top 16 bits: {i.lgf:X4}\nRemaining bits: {i.lge:X4}");
+            i.lg = 0x11112222;
+            Console.WriteLine($"Top 16 bits: {i.lgf:X4}\nLow 16 bits: {i.lge:X4}");
         }
     }
 }
